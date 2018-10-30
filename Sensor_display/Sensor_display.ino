@@ -121,6 +121,10 @@ void serialPrintDebugger() {
   Serial.print(val);
   Serial.print("\t motorAngle; ");
   Serial.print(angle);
+  Serial.print("\t min; ");
+  Serial.print(bendSensor_min);
+  Serial.print("\t max; ");
+  Serial.print(bendSensor_max);
   Serial.println();
 }
 
